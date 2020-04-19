@@ -54286,7 +54286,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"], vue_axios__WEBPACK_IMPORTED_MODULE_2___default.a, axios__WEBPACK_IMPORTED_MODULE_1___default.a, vue_the_mask__WEBPACK_IMPORTED_MODULE_3___default.a);
-Vue.prototype.$BASE_URL = 'http://desafio.test/api/'; //Vue.prototype.$BASE_URL = 'https://aw-desafio.herokuapp.com/api/';
+Vue.prototype.$BASE_URL = 'http://localhost:8000/api/'; //Vue.prototype.$BASE_URL = 'https://aw-desafio.herokuapp.com/api/';
 
 var routes = [{
   path: '/',
@@ -54318,7 +54318,7 @@ var routes = [{
   component: __webpack_require__(/*! ./components/TodoComponent.vue */ "./resources/js/components/TodoComponent.vue")["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
-  mode: 'history',
+  // mode: 'history',
   routes: routes
 });
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
@@ -55027,8 +55027,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\desafio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\desafio\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/renanreis/Projetos/Examples/desafio/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/renanreis/Projetos/Examples/desafio/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

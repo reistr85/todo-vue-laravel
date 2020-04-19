@@ -8,7 +8,7 @@ import VueAxios from 'vue-axios';
 import VueTheMask from 'vue-the-mask';
 
 Vue.use(VueRouter, VueAxios, axios, VueTheMask)
-Vue.prototype.$BASE_URL = 'http://desafio.test/api/';
+Vue.prototype.$BASE_URL = 'http://localhost:8000/api/';
 //Vue.prototype.$BASE_URL = 'https://aw-desafio.herokuapp.com/api/';
 
 let routes = [
@@ -26,7 +26,7 @@ let routes = [
 ]
 
 const router = new VueRouter({
-    mode: 'history',
+    // mode: 'history',
     routes
 })
 
